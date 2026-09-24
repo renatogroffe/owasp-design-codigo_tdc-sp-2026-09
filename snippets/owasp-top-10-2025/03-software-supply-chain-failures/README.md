@@ -22,3 +22,7 @@ dotnet outdated -u
 ```
 
 Saiba mais em: **https://github.com/dotnet-outdated/dotnet-outdated**
+
+---
+
+Monitoramento contínuo em um cluster Kubernetes: **https://github.com/renatogroffe/trivy_operator-aks-managed_prometheus**
