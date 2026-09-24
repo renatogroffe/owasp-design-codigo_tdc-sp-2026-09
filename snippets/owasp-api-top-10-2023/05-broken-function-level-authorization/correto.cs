@@ -1,6 +1,6 @@
 app.MapPost("/admin/users/{id}/delete", (HttpContext httpContext, int id) =>
 {
-    // Verifica se um usuário está autenticado, sem contudo checar suas permissões... 
+    // Verifica se um usuário está autenticado...
 
     // ✅ CORRIGIDO: verifica se o usuário tem permissão
     if (currentUser.Role != "Admin")
